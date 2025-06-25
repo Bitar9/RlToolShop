@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RL Toolshop - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Splash/Loading Screen -->
+  <div id="splash-screen" class="splash-screen">
+    <div class="splash-logo orbitron gradient-text">RL Toolshop</div>
+    <div class="splash-loader"></div>
+  </div>
+  <!-- Parallax/Particles Background -->
+  <div id="bg-parallax"></div>
+  <div id="particles"></div>
+  <!-- Header Include -->
+  <div id="header-include"></div>
+
+  <section class="section contact-section">
+    <h1 class="section-title gradient-text orbitron">Contact & Purchase</h1>
+    <p class="contact-desc">All transactions and inquiries are handled manually via Discord. Click below to join our server and DM us with your desired product or service!</p>
+    <a href="https://discord.gg/YOUR_INVITE" target="_blank" class="cta-btn">Join Discord</a>
+    <p class="contact-fallback">Prefer email? <a href="mailto:support@rocketmods.com">support@rocketmods.com</a></p>
+  </section>
+
+  <!-- Footer Include -->
+  <div id="footer-include"></div>
+  <script>
+    fetch('header.html').then(r=>r.text()).then(t=>document.getElementById('header-include').innerHTML=t);
+    fetch('footer.html').then(r=>r.text()).then(t=>document.getElementById('footer-include').innerHTML=t);
+  </script>
+</body>
+</html> 

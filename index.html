@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RL Toolshop - The Ultimate Rocket League Garage</title>
+  <link rel="icon" href="octane_nobackground.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="content.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <!-- Splash/Loading Screen -->
+  <div id="splash-screen" class="splash-screen">
+    <div class="splash-logo orbitron gradient-text">RL Toolshop</div>
+    <div class="splash-loader"></div>
+  </div>
+  <!-- Parallax/Particles Background -->
+  <div id="bg-parallax"></div>
+  <div id="particles"></div>
+
+  <!-- SPA Containers -->
+  <div id="spa-nav"></div>
+  <main id="spa-main">
+    <section id="spa-hero"></section>
+    <section id="spa-partners"></section>
+    <section id="spa-products"></section>
+    <section id="spa-boosting"></section>
+    <section id="spa-mods"></section>
+    <section id="spa-community"></section>
+    <section id="spa-testimonials"></section>
+    <section id="spa-faq"></section>
+    <section id="spa-contact"></section>
+  </main>
+  <div id="spa-footer"></div>
+
+  <!-- Modal for product/contact -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content glass">
+      <span id="modal-close" class="modal-close">&times;</span>
+      <h3 id="modal-title" class="modal-title gradient-text orbitron"></h3>
+      <p id="modal-desc" class="modal-desc"></p>
+      <a id="modal-cta" href="#" target="_blank" class="cta-btn">Contact on Discord</a>
+    </div>
+  </div>
+</body>
+</html> 
