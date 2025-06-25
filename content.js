@@ -26,7 +26,7 @@ window.RL_CONTENT = {
       title: 'GC1 Rank Boost',
       desc: 'Get boosted to Grand Champion 1 by top pros. Fast, safe, and guaranteed. Includes progress tracking and premium support.',
       price: 'From $8',
-      img: 'pics/boosting.png',
+      img: 'Pics/boosting.png',
       highlight: true,
       details: 'Our most popular service! Trusted by 100+ players. 100% safe, manual boosting. Refund if not delivered.'
     },
@@ -34,7 +34,7 @@ window.RL_CONTENT = {
       title: '1-on-1 Coaching',
       desc: 'Personalized coaching sessions with RL experts. Improve your mechanics, game sense, and strategy. All skill levels welcome!',
       price: '$10.99/hr',
-      img: 'pics/Coaching.png',
+      img: 'Pics/Coaching.png',
       highlight: true,
       details: 'Meet your coach, get a custom plan, and see real results. Includes replay analysis and live sessions.'
     },
@@ -42,7 +42,7 @@ window.RL_CONTENT = {
       title: 'Rank Boost to Champion',
       desc: 'Reach your dream rank in days! Fast, safe, and anonymous boosting by top-ranked pros.',
       price: 'From $5',
-      img: '/pics/champion.png',
+      img: '/Pics/champion.png',
       highlight: false
     }
   ],
@@ -51,7 +51,7 @@ window.RL_CONTENT = {
       title: 'Replace Fennec',
       desc: 'Replace your Car with fennec, only for on your Perspective (Bakkesmod Required).',
       price: '$3',
-      img: '/pics/fennec-black.jpg',
+      img: '/Pics/fennec-black.jpg',
       featured: true,
       highlight: true
     },
@@ -59,7 +59,7 @@ window.RL_CONTENT = {
       title: 'DDOS Method',
       desc: 'DDOS method explained step by step in rocket league discord server for cheapest price.',
       price: '$8',
-      img: 'pics/DDOS_ATTACK.jpg',
+      img: 'Pics/DDOS_ATTACK.jpg',
       featured: true,
       highlight: true
     },
@@ -67,7 +67,7 @@ window.RL_CONTENT = {
       title: 'Boost Timer',
       desc: 'Puts a timer above each boost pad with how much time left for it to spawn. (Bakkesmod Required)',
       price: '$5',
-      img: '/pics/boost-timer.png',
+      img: '/Pics/boost-timer.png',
       featured: true,
       highlight: true
     }
