@@ -15,7 +15,7 @@ window.RL_CONTENT = {
     desc: 'Unleash your full potential with premium mods, tools, and boosting services. All handled via Discord.',
     cta: 'Browse Services',
     trusted: 'Trusted by 10,000+ players worldwide',
-    carImg: 'pics/logo.png',
+    carImg: 'Pics/logo.png',
   },
   partners: [
     { img: '24jme65xlym51.png', alt: 'Partner 1' },
@@ -42,7 +42,7 @@ window.RL_CONTENT = {
       title: 'Rank Boost to Champion',
       desc: 'Reach your dream rank in days! Fast, safe, and anonymous boosting by top-ranked pros.',
       price: 'From $5',
-      img: '/Pics/champion.png',
+      img: 'Pics/champion.png',
       highlight: false
     }
   ],
@@ -51,7 +51,7 @@ window.RL_CONTENT = {
       title: 'Replace Fennec',
       desc: 'Replace your Car with fennec, only for on your Perspective (Bakkesmod Required).',
       price: '$3',
-      img: '/Pics/fennec-black.jpg',
+      img: 'Pics/fennec-Black.jpg',
       featured: true,
       highlight: true
     },
@@ -67,7 +67,7 @@ window.RL_CONTENT = {
       title: 'Boost Timer',
       desc: 'Puts a timer above each boost pad with how much time left for it to spawn. (Bakkesmod Required)',
       price: '$5',
-      img: '/Pics/boost-timer.png',
+      img: 'Pics/boost-timer.png',
       featured: true,
       highlight: true
     }
