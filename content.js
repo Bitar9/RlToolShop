@@ -26,7 +26,7 @@ window.RL_CONTENT = {
       title: 'GC1 Rank Boost',
       desc: 'Get boosted to Grand Champion 1 by top pros. Fast, safe, and guaranteed. Includes progress tracking and premium support.',
       price: 'From $8',
-      img: 'Pics/boosting.png',
+      img: 'Pics/Boosting.png',
       highlight: true,
       details: 'Our most popular service! Trusted by 100+ players. 100% safe, manual boosting. Refund if not delivered.'
     },
